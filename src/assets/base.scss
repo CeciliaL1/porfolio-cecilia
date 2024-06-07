@@ -1,20 +1,4 @@
 body {
-    margin: auto;
-    max-width: 700px;
-    background-color: $background-color
-}
-
-@media screen and (min-width: 380px) {
-    nav {
-        position: relative;
-        left: 150px;
-    }
-}
-
-
-@media screen and (min-width: 900px) {
-    nav {
-        position: relative;
-        left: 100px;
-    }
+    margin: 0;
+    background-color: $background-color;
 }
