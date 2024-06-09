@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
-import AboutMe from './AboutMe.vue'
+import { ref } from 'vue';
 import ExperienceCard from './ExperienceCard.vue';
 import LandingPage from './LandingPage.vue';
 import Home from './Home.vue'
+
 
 
 const landingPage = () => {
