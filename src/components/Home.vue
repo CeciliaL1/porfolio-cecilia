@@ -1,16 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { Competencie } from '../models/Competencie';
+import { Competence } from '../models/Competence';
 import ProgressBar from './ProgressBar.vue';
 
-const competencies = ref<Competencie[]>([
-    new Competencie('JavaScript', 7),
-    new Competencie('TypeScript', 6),
-    new Competencie('HTML/CSS', 8),
-    new Competencie('Vue', 3),
-    new Competencie('node.js', 6),
-    new Competencie('MongoDB', 4),
-    new Competencie('MySQL', 4)
+const competencies = ref<Competence[]>([
+    new Competence('JavaScript', 7),
+    new Competence('TypeScript', 6),
+    new Competence('HTML/CSS', 8),
+    new Competence('Vue', 3),
+    new Competence('node.js', 6),
+    new Competence('MongoDB', 4),
+    new Competence('MySQL', 4)
 ]);
 
 
@@ -33,11 +33,10 @@ const competencies = ref<Competencie[]>([
         <div class="competencies-container">
             <h3>Competencies</h3>
 
-                <div class="competencie" v-for="comp in competencies" >
-                    <div>{{ comp.type  }}</div>
+                <div class="competence" v-for="comp in competencies" >
+                    <div>{{ comp.type }}</div>
                     <div><ProgressBar :value="comp.rate" /></div>
                 </div>
-
         </div>
     </div>
 
@@ -97,7 +96,7 @@ const competencies = ref<Competencie[]>([
            width: 300px;
            
             
-           .competencie {
+           .competence {
             margin-top: 30px;
             display: flex;
             flex-direction: row;
@@ -118,8 +117,4 @@ const competencies = ref<Competencie[]>([
 
     
 }
-
-
-
-
-</style>
+</style>../models/Competence

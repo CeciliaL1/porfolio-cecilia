@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import ExperienceCard from './ExperienceCard.vue';
 import LandingPage from './LandingPage.vue';
+import Portfolio from './Portfolio.vue'
 import Home from './Home.vue'
 
 
@@ -48,7 +49,9 @@ let openMenuOptions = 'open-menu-options'
 
 <LandingPage />
 <Home v-if="click === 'Home' || goHome" />
+<Portfolio v-if="click === 'Portfolio'"/>
 <ExperienceCard v-if="click === 'CV' "/>
+
 </div>
 </template>
 
@@ -89,6 +92,7 @@ header{
         }
 
         h1 {
+            cursor: pointer;
             text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         }
     }

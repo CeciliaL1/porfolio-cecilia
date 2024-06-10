@@ -14,9 +14,9 @@ const educationArray = ref<Establishment[]>([
 const workExperienceArray = ref<Establishment[]>([
   new Establishment('Lenhud', 'Lund', 'September 2019 - January 2023', 'Working as a skin therapist'),
   new Establishment('Tite Hudvård', 'Malmö', 'February 2019 - September 2019', 'Working as a skin therapist'),
-  new Establishment('Assisytant Nurse', 'Staffanstorp', 'September 2016 - July 2018', 'Elderly care, dementia patiens'),
+  new Establishment('Assisytant Nurse', 'Staffanstorp', 'September 2016 - July 2018', 'Elderly care, dementia patients'),
   new Establishment('Assistant nurse', 'Kävlinge kommun', 'November 2015 - September 2016', 'Elderly care, Domestic service'),
-  new Establishment('Assistant nurse', 'Lomma kommun', 'August 2013 - November 2015', 'Elderly care, dementia patiens'),
+  new Establishment('Assistant nurse', 'Lomma kommun', 'August 2013 - November 2015', 'Elderly care, dementia patients'),
 ])
 
 const singleDiv = 'single-div'
@@ -73,7 +73,7 @@ section{
 
 .experience {
     width: 400px;
-    background-color: rgb(157, 156, 156);
+    background-color: $hover-color;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 10px;
     margin: 20px;
@@ -81,11 +81,17 @@ section{
     h1{
         text-align: center;
         margin-bottom: 6px;
+        text-transform: uppercase;
+        color: $secondary-color;
     }
     
     div{
+        h4{
+            font-size: 1.1rem;
+        }
         h5{
             margin: 0;
+            font-size: 0.9rem;
         }
         p{
             margin-top: 2px;
@@ -95,9 +101,10 @@ section{
             h4{
                 margin-bottom: 5px;
             }
+     
         }
+       
     }
-
 
     .single-div {
     display: flex;

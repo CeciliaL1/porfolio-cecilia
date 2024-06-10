@@ -16,7 +16,7 @@
     background-image: linear-gradient(rgba(24, 24, 24, 0.4), rgba(0, 0, 0, 0.6)), url("/images/IMG_1982-modified.JPEG");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 70% 16%;
+    background-position: 70% 13%;
     width: 100%;
     min-height: 45vh;
 }
