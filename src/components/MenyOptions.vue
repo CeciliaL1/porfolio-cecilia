@@ -3,7 +3,8 @@ import { ref } from 'vue';
 import ExperienceCard from './ExperienceCard.vue';
 import LandingPage from './LandingPage.vue';
 import Portfolio from './Portfolio.vue'
-import Home from './Home.vue'
+import Home from './Home.vue';
+import Contact from './Contact.vue'
 
 
 
@@ -51,6 +52,7 @@ let openMenuOptions = 'open-menu-options'
 <Home v-if="click === 'Home' || goHome" />
 <Portfolio v-if="click === 'Portfolio'"/>
 <ExperienceCard v-if="click === 'CV' "/>
+<Contact v-if="click === 'Contact'"/>
 
 </div>
 </template>
