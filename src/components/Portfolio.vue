@@ -8,7 +8,8 @@ const projects = ref<(Project[])>([
     new Project('To the moon', 'https://cecilial1.github.io/Kundprojekt/', 'A one pager from the course HTML/CSS, ', true),
     new Project('Interactive rating', 'https://calm-sea-02ea92d03.5.azurestaticapps.net/', 'Small rating component made with Frontend Mentor', true),
     new Project('GridPainter', 'https://github.com/CeciliaL1/gridpainter', 'API and socket, a painting game where you can play in real time and chat', false),
-    new Project('Unittesting', 'https://github.com/CeciliaL1/unittesting-assignment', 'Unittesting in provided code', false)
+    new Project('Unittesting', 'https://github.com/CeciliaL1/unittesting-assignment', 'Unittesting in provided code', false),
+    new Project('Todo app', 'https://icy-wave-0be513203.5.azurestaticapps.net/', 'A todo app with vue.js', true)
 ])
 
 </script>

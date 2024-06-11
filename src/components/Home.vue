@@ -117,4 +117,4 @@ const competencies = ref<Competence[]>([
 
     
 }
-</style>../models/Competence
+</style>
