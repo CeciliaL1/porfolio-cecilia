@@ -4,13 +4,13 @@ import { Competence } from '../models/Competence';
 import ProgressBar from './ProgressBar.vue';
 
 const competencies = ref<Competence[]>([
-    new Competence('JavaScript', 7),
-    new Competence('TypeScript', 6),
+    new Competence('JavaScript', 6),
+    new Competence('TypeScript', 5),
     new Competence('HTML/CSS', 8),
-    new Competence('Vue', 3),
+    new Competence('Vue', 4),
     new Competence('node.js', 6),
-    new Competence('MongoDB', 4),
-    new Competence('MySQL', 4)
+    new Competence('MongoDB', 3),
+    new Competence('MySQL', 3 )
 ]);
 
 

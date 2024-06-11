@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import { onMounted } from 'vue';
 
- defineProps<{value: number}>();
+interface ICompetence {
+    value: number;
+}
 
-onMounted(() => {
+defineProps<ICompetence>();
 
-})
+
 </script>
 
 <template>
