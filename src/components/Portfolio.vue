@@ -3,6 +3,7 @@ import { ref } from 'vue';
 import { Project } from '../models/Project'
 
 const projects = ref<(Project[])>([
+    new Project('Advice generator', 'https://proud-island-03a3a0503.5.azurestaticapps.net/', 'Generates random advice from API using vue', true),
     new Project('Webbshop', 'https://cecilial1.github.io/Gottfrids-Munkar/', 'A Fictiv webbshop in the course JavaScript Basics', true),
     new Project('Phobia Quiz', 'https://github.com/CeciliaL1/PhobiaQuiz', 'A quiz about phobias from the course JavaScript Bascis', false),
     new Project('To the moon', 'https://cecilial1.github.io/Kundprojekt/', 'A one pager from the course HTML/CSS, ', true),
